@@ -26,7 +26,7 @@ p{
 {
    float:left;
    color:black;
-   font-size:130px;
+   font-size:140px;
    line-height:70px;
    font-family: Helvetica, sans-serif, Arial,;
    font-weight: 700;
@@ -70,8 +70,8 @@ footer{
     padding-top:  0px;
     padding-bottom: 0px;
     background-color: rgb(223, 221, 221);
-    margin-left: 430px;
-    margin-right: 430px;
+    margin-left: 440px;
+    margin-right: 440px;
     margin-top: 20px;
     margin-bottom: 400px;
 
