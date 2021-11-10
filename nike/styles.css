@@ -54,9 +54,13 @@ ul {
     }
 
 .menu{
-        padding-top: 100px;
+    position: sticky;
+    top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 130px;
         font-size: 30px;   
+        opacity: 50%;
     }
 .menu li{
         display: inline;
@@ -71,18 +75,14 @@ a {
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
-a:link, a:visited, a:focus {
-  ;
-}
+
 
 a:hover {
  color: red;
  text-decoration: underline;
 }
 
-a:active {
-  ;
-}
+
 .primeralista{
     padding-top: 0px;
     padding-left: 0px; 

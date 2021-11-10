@@ -75,7 +75,7 @@ a {
     font-weight: 120;
 }
 a:hover {
-    color: ;
+   
     text-decoration: underline;
    }
 main{
@@ -96,4 +96,5 @@ h4{
     text-align: center; 
     font-weight: 600;
     font-size: 14px;
-    color: whitesmoke;
+    color: whitesmoke;}
+    
