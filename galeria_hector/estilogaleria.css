@@ -1,0 +1,99 @@
+header {
+    background-color:rgb(0, 0, 0) ;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+img {
+    height: 45vh;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+h1{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left; 
+    font-size: 90px;
+    font-weight: 90;
+    margin: 1px;
+    color: whitesmoke;
+    
+
+}
+h3{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: 500;
+    
+    color: whitesmoke;
+}
+body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center; 
+    margin: 0px;
+
+   
+}
+main{
+    background-color: black;
+    padding-bottom: 150px;
+}
+.imagenes{
+    list-style: none;
+}
+h2{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left; 
+    font-size: 30px;
+    font-weight: 500;
+    margin: 1px;
+    color: whitesmoke;
+    
+    
+}
+.padre{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.menu li{
+    display: inline;
+    font-size: 20px;
+    font-family:  "Helvetica Neue", Helvetica,Arial, sans-serif;
+    
+}   
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 120;
+}
+a:hover {
+    color: ;
+    text-decoration: underline;
+   }
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ultimalista{
+    display: inline;
+    list-style: none;
+    text-align: left;
+
+}
+footer{
+    background-color: whitesmoke;
+}
+h4{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 14px;
+    color: whitesmoke;
