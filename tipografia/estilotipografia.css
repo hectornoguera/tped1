@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff");
+  }
+.caja {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.texto1 {
+    width: 33%;
+    position: relative;
+    font-family: 'zantrokeregular', serif;
+  }
+.texto2 {
+    width: 33%;
+    position: relative;
+  }
+.texto3 {
+    width: 33%;
+    position: relative;
+  }    
+.texto4 {
+    width: 33%;
+    position: relative;
+  }
+.texto5 {
+    width: 33%;
+    position: relative;
+  }
+.texto6 {
+    width: 33%;
+    position: relative;
+  }   
+.texto7 {
+    width: 33%;
+    position: relative;
+  }
+.texto8 {
+    width: 33%;
+    position: relative;
+  }
+.texto9 {
+    width: 33%;
+    position: relative;
+  }   

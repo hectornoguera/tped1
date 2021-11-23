@@ -64,8 +64,8 @@ ul {
     }
 .menu li{
         display: inline;
-        font-size: 30px;
-        font-family:  "Helvetica Neue", Helvetica,Arial, sans-serif;
+        font-size: 15px;
+        
     }   
 a {
   outline: none;

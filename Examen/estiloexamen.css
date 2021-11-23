@@ -1,0 +1,80 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header {
+    
+    position: sticky;
+    top: 0;
+    margin-top: 30px;
+    text-align: right;
+  }
+body {
+    background-color: pink;
+  }
+ 
+menu{
+    width: 400px;
+    height: 200px;
+}
+.menu li{
+        display: inline;
+        font-size: 15px;
+        position: relative;
+        width: 400px;
+        height: 200px;
+        
+       
+        
+    }   
+     a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        text-align: right;
+        
+      }
+    a:hover {
+        text-decoration: underline;
+       }
+h3{
+    color: black;
+    font-size: 30px;
+}
+h1{
+    font-size: 60px;
+}
+main{
+    margin-left: 120px;
+    margin-top:200px;
+}
+button{
+
+    background-color: rgb(74, 74, 231);
+    padding: 5px;
+}
+button:hover{
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+div.absolute {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: red;
+  }
+  div.absolute :hover{
+      opacity: 50%;
+      color: red
+  }
+  img{
+ 
+  }
+  div.absolute2 .img {
+    position: absolute;
+    top: 30px;
+    border: red;
+    
+  }
