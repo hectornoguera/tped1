@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "myFont";
-    src: url("myFont.woff");
-  }
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
 .caja {
     
     display: flex;
@@ -14,23 +11,27 @@
 .texto1 {
     width: 33%;
     position: relative;
-    font-family: 'zantrokeregular', serif;
+    font-family: 'Estonia', cursive;
   }
 .texto2 {
     width: 33%;
     position: relative;
+    font-family: 'Comforter', cursive;
   }
 .texto3 {
     width: 33%;
     position: relative;
+    font-family: 'Lobster', cursive;
   }    
 .texto4 {
     width: 33%;
     position: relative;
+    font-family: 'Dancing Script', cursive;
   }
 .texto5 {
     width: 33%;
     position: relative;
+    font-family: 'Comforter Brush', cursive;
   }
 .texto6 {
     width: 33%;
