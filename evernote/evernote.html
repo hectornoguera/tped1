@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejemplo Boostrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            box-sizing: border-box;
+            /* para que los bordes, paddings estén en la anchura (determinada por col) */
+            min-height: 30px;
+        }
+
+        img {
+            height: auto;
+        }
+
+        .col-5 ul {
+            display: inline;
+            font-size: 15px;
+            list-style: none;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            color: green;
+
+
+
+        }
+
+        .col-3 li {
+            font-size: 15px;
+            list-style: none;
+            color: green;
+            list-style: none;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 8px;
+            background-color: gray;
+            border-radius: 30px;
+            color: whitesmoke;
+
+        }
+
+        nav {
+            list-style: none;
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+        }
+        h3{
+            font-size: 15px;
+        }
+        .texto_verde{
+            color: green;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="row">
+
+            <div class="col-4 "> <img src="ficheros/logo.png"></div>
+            <div class="col-5 ">
+                <ul>
+                    <li>cosa1</li> |
+                    <li>cosa2</li> |
+                    <li>cosa3</li>
+
+                </ul>
+            </div>
+            <div class="col-3 ">
+                <ul>
+                    <li>cosa1</li>
+                    <li>cosa2</li>
+                    <li>cosa3</li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-6 " >
+                <h1>Evernote</h1>
+                <h3>Textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </h3>
+                <button>Get Evernote for Mac</button><P>Get de web clipper</P>
+                
+                <p><span class="texto_verde">Get Evernote for mobile, tablet, and other devices</span></p>
+
+                    
+            </div>
+            <div class="col-6 "> <img src="ficheros/hero_evernote.png"></div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-4 "> <img src="ficheros/ill_evernote1.png"><br>
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+            <div class="col-4 "> <img src="ficheros/ill_evernote2.png">
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+            <div class="col-4 "> <img src="ficheros/ill_evernote3.png">
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+            <div class="col-4 "> <img src="ficheros/ill_evernote4.png">
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+            <div class="col-4 "> <img src="ficheros/ill_evernote5.png">
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+            <div class="col-4 "> <img src="ficheros/ill_evernote6.png">
+                <h3>CABECERA</h3>
+                <p>
+                    textotextotexto textotex totextotext otextotextotex totextotexto textotextotexto textotex
+                    totextotext
+                    otextote xtotextotexto textotex
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <footer class="row">
+
+            <div class="col-12 ">
+                <h2>Evernote Stories
+                </h2>
+                <p>Check out the cool ways some of our users use Evernote</p>
+            </div>
+            <!-- aquí va un offset-8 pero no me funciona-->
+            <div class="col-4 " style="background-color: lavender;">
+                <p>Check out our video library for more stories,
+                    tips and feature demos</p>
+                <button>VIDEO LIBRARY</button>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
