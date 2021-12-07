@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejemplo Boostrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            height: 50px;
+            box-sizing: border-box;
+
+        }
+
+        footer {
+            height: 10px;
+            box-sizing: border-box;
+
+        }
+
+        main {
+            box-sizing: border-box;
+            /* para que los bordes, paddings estén en la anchura (determinada por col) */
+            height: 300px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="row">
+            <div class="col offset-3"></div>
+            <div class="col-6 " style="background-color: darkorange;"> Loren Ipsum dolor</div>
+            
+        </nav>
+    </div>
+       <!-- Lo he intentado arreglar pero no se que pasa, ahora se reparten el espacio por la mitad--> 
+    
+
+    <div class="container-fluid">
+        <main class="row">
+            <div class="col-3 " style="background-color:red;"> Loren Ipsum dolor</div>
+            <div class="col-6 " style="background-color:darkcyan;"> Loren Ipsum dolor</div>
+            <div class="col-3 " style="background-color:red;"> Loren Ipsum dolor</div>
+        </main>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="row">
+            <div class="col-12 " style="background-color:darksalmon;"> Loren Ipsum dolor</div>
+        </footer>
+    </div>
+</body>
+
+</html>
